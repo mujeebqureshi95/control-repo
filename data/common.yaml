@@ -1,2 +1,6 @@
 ---
+puppet_agent::config:
+- {section: agent, setting: tags, value: 'os_level,applicationX'}
+- {section: agent, setting: noop, value: false}
+- {section: agent, setting: environment, value: develop}
 message: "This node is using common data"
